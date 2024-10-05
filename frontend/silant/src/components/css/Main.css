@@ -1,0 +1,14 @@
+.Main {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.find {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+

@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'MyCustomFont-1';
+    src: url('../../fonts/PT-Astra-Sans_Bold-Italic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.button-container {
+    font-family: 'MyCustomFont-1';
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.color-button {
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    flex: 1;
+}
+
+.color-button.active {
+    background-color: #D20A11; 
+}
+
+.color-button.inactive {
+    background-color: #163E6C;
+}
+  
+  /* Медиа-запросы для адаптивности */
+  
+  /* Для экранов не шире 768px */
+  @media (max-width: 768px) {
+    .button-container {
+      flex-direction: column;
+      padding: 5px 0;
+    }
+  
+    .button-container a {
+      width: 80%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Для экранов не шире 360px */
+  @media (max-width: 360px) {
+    .button-container a {
+      width: 75%;
+      font-size: 14px;
+    }
+    
+  }
+
+  @media (max-width: 480px) {
+    .button-container a {
+      width: 82%;
+      font-size: 14px;
+    }
+
+}

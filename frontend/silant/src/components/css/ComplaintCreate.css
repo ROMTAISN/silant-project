@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'PT-Astra-Sans';
+  src: url('../../fonts/PT-Astra-Sans_Bold-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Стили для контейнера формы */
+.create-container {
+  min-height: 55vh;margin: 20px auto;
+  padding: 30px;
+  background-color: #EBE6D6;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Настройка стилей для групп ввода */
+.complaint-form .form-group {
+  margin-bottom: 20px;
+}
+
+.complaint-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: 'PT-Astra-Sans', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+.complaint-form input[type="text"],
+.complaint-form input[type="date"],
+.complaint-form input[type="number"],
+.select-items {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'PT-Astra-Sans', sans-serif;
+  transition: border-color 0.3s;
+}
+
+.complaint-form input:focus,
+.complaint-form select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Стили для кнопок */
+.back,
+.create {
+  display: inline-block;
+  width: 48%;
+  padding: 10px;
+  margin-top: 15px;
+  font-family: 'PT-Astra-Sans', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  background-color: #163E6C;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.back {
+  background-color: #D20A11;
+}
+
+.back:hover {
+  background-color: #d9534f;
+}
+
+.create:hover {
+  background-color: #0056b3;
+}

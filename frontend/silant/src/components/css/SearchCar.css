@@ -1,0 +1,68 @@
+.SearchCar {
+  min-height: 50vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    background-color: #EBE6D6;
+}
+
+li {
+    list-style: none;
+}
+
+.infoCar {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.primaryBtn {
+    margin: 20px 10px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 13px 25px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    border: none;
+    color: white;
+    background:  #163E6C;
+    transition: all 0.25s ease;
+  }
+   
+  .primaryBtn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px -10px rgba(24, 90, 219, 0.6);
+  }
+
+  .button-search {
+    margin-bottom: 10pt;
+    padding: 15px 10px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 18px 25px;
+    border: none;
+    background-color: #163E6C;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button-search:hover {
+    background-color: #D20A11;
+}
+
+h3 {
+  color: #163E6C;
+}
+
+.modal-window {
+  font-family: 'MyCustomFont-1';
+  padding: 20px;
+  background-color: #EBE6D6;
+}
+
+.modal-open:hover {
+  color: #D20A11;
+}

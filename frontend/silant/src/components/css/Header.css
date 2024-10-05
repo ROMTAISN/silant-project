@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'MyCustomFont-1';
+    src: url('../../fonts/PT-Astra-Sans_Bold-Italic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+h1 {
+    text-align: center;
+    color: #163E6C;
+}
+
+img {
+    display: flex;
+    object-fit: scale-down;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+.head li {
+    flex-grow: 1;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.autorization {
+    width: 150px;
+    height: 70px;
+}
+
+.in-out {
+    margin-top: 20pt;
+    padding: 10px 15px;
+    border: none;
+    background-color: #163E6C;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'MyCustomFont-1';
+    font-size: 16px;
+}
+
+.in-out:hover {
+    background-color:  #D20A11;
+}
+
+/* Базовые стили для хедера */
+.Header {
+    padding: 20px;
+    background-color: #EBE6D6;
+    text-align: center;
+  }
+  
+  /* Стили для head */
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+  
+  .head li {
+    list-style: none;
+  }
+  
+  .logo {
+    max-width: 100px;
+  }
+  
+  .contact-info {
+    font-family: 'MyCustomFont-1';
+    font-size: 16px;
+  }
+  
+  .in-out {
+    background-color: #163E6C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'MyCustomFont-1';
+    border-radius: 5px;
+  }
+  
+  .in-out:hover {
+    background-color: #D20A11;
+  }
+  
+  
+  .title {
+    font-family: 'MyCustomFont-1';
+    font-size: 24px;
+    color: #163E6C;
+  }
+  
+  /* Медиа-запросы для адаптивности */
+  
+  /* Для экранов не шире 768px */
+  @media (max-width: 768px) {
+    .head {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .contact-info {
+      font-size: 14px;
+      padding-top: 10px;
+    }
+  
+    .title {
+      font-size: 20px;
+    }
+  
+    .in-out {
+      padding: 8px 15px;
+    }
+  }
+  
+  /* Для экранов не шире 480px */
+  @media (max-width: 480px) {
+    .logo {
+      max-width: 80px;
+    }
+  
+    .contact-info {
+      font-size: 12px;
+    }
+  
+    .title {
+      font-size: 18px;
+    }
+  
+    .in-out {
+      padding: 5px 10px;
+    }
+  }

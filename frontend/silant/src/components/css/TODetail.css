@@ -1,0 +1,39 @@
+.TODetail {
+    margin: 0;
+    padding: 0;
+    min-height: 60vh;
+    text-align: center;
+    background-color: #EBE6D6;
+}
+
+table {
+    width: 100%;
+}
+
+.back {
+    margin-bottom: 10pt;
+    padding: 15px 10px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    background-color: #163E6C;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.back:hover {
+    background-color: #D20A11;
+}
+
+.modal-window {
+    font-family: 'MyCustomFont-1';
+    padding: 20px;
+    background-color: #EBE6D6;
+}
+
+.open-modal:hover {
+    color: #D20A11;
+}
